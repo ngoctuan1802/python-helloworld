@@ -30,8 +30,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: /go-app
-          file: /go-app/Dockerfile
-          platforms: linux/amd64
-          push: true
-          tags: ngoctuan103/go-helloworld:v1.0.0
+              context: ./go-app
+              file: ./go-app/Dockerfile
+              platforms: linux/amd64
+              push: true
+              tags: ngoctuan103/go-helloworld:v1.0.0
