@@ -33,4 +33,4 @@ jobs:
               file: ./go-app/Dockerfile
               platforms: linux/amd64
               push: true
-              tags: ngoctuan103/go-helloworld:v1.0.0
+              tags: ngoctuan103/go-helloworld:v1.1.0

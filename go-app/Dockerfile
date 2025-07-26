@@ -6,8 +6,7 @@ WORKDIR /go/src/app
 COPY . .
 
 # Combine RUN commands to reduce layers
-RUN go env -w GO111MODULE=auto && \
-  go build -o helloworld
+RUN  go mod init && go build -o helloworld
 
 EXPOSE 6111
 
