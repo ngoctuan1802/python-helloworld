@@ -1,4 +1,4 @@
-name: Docker Build and push
+name: Python App - Docker Build and push
 on: 
   push: 
     branches: [main]
@@ -24,7 +24,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ./Dockerfile
+          context: ./python-app
+          file: ./python-app/Dockerfile
           push: true
           tags: ngoctuan103/udacitylab:latest

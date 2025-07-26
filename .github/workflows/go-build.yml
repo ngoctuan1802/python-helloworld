@@ -1,5 +1,5 @@
 
-name: Docker Build and Push
+name: Go App - Docker Build and Push
 
 on:
   push:
