@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: udacitylab/python-hello-world:latest
+          tags: ngoctuan103/udacitylab:latest
