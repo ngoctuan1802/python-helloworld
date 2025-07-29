@@ -1,5 +1,11 @@
 name space: demo
+
+service:
+  type: ClusterIP
+  port: 8111
+
 replicaCount: 3
+
 image:
   repository: nginx
   tag: alpine
@@ -10,4 +16,4 @@ resources:
     memory: 128Mi
 
 configmap:
-  version: 1.18.0
+  data: "version: alpine"
