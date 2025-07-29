@@ -1,0 +1,14 @@
+name space: prod
+replicaCount: 2
+image:
+  repository: nginx
+  tag: 1.17.0
+  pullPolicy: IfNotPresent
+resources: 
+  requests:
+    cpu: 70m
+    memory: 256Mi
+configmap:
+  version: 1.18.0
+service port:
+  port: 80
