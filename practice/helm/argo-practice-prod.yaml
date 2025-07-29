@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: practice/helm/
+    path: practice/helm
     repoURL: https://github.com/ngoctuan1802/python-helloworld
     targetRevision: HEAD
