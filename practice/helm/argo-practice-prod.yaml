@@ -12,6 +12,6 @@ spec:
     helm:
       valueFiles:
       - values-prod.yaml
-    path: practice/helm
-    repoURL: https://github.com/ngoctuan1802/python-helloworld
+    path: helm
+    repoURL: https://github.com/kgamanji/argocd-demo
     targetRevision: HEAD
