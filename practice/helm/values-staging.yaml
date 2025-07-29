@@ -1,8 +1,8 @@
 namespace:
-  name: staging
-
+  name: staging 
+ 
 service:
-  port: 80
+  port: 8111
   type: ClusterIP
 
 image:
@@ -10,7 +10,7 @@ image:
   tag: 1.18.0
   pullPolicy: IfNotPresent
 
-replicaCount: 2
+replicaCount: 1
 
 resources:
   requests:
@@ -18,4 +18,4 @@ resources:
     memory: 128Mi
 
 configmap:
-  data: "version: 1.17.0"
+  data: "version: 1.18.0"
