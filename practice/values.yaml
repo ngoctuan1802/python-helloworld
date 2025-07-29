@@ -1,0 +1,13 @@
+name space: demo
+replicaCount: 3
+image:
+  repository: nginx
+  tag: alpine
+  pullPolicy: IfNotPresent
+resources: 
+  requests:
+    cpu: 50m
+    memory: 128Mi
+
+configmap:
+  version: 1.18.0

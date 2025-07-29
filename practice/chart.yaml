@@ -1,0 +1,9 @@
+apiVersion: v1
+name: nginx-deployment
+description: Practice chart for learning purposes
+keywords:
+- nginx
+version: 1.0.0
+maintainers:
+- name: student
+  email: student@example.com
